@@ -1,0 +1,492 @@
+/********* CSS *********/
+
+/***** GENERAL *****/
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: white;
+}
+
+a{
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:followed {
+  color: white;
+}
+
+body {
+  display: flex;
+	flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+h1.banner {
+  font-family: 'Poiret One', sans-sarif;
+  font-weight: normal;
+  color: white;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/***** HEADER *****/
+header {
+  margin: 0.5rem;
+  padding: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img.logo {
+  width: 3rem;
+}
+
+div.nav-item {
+  justify-content: space-around;
+	font-family: 'Poiret One', sans-sarif;
+  font-size: 2rem;
+	padding: 0.5rem;
+	margin: 0;	
+}
+
+div.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+
+div.nav-item a:followed {
+  color: white
+}
+
+div.nav-item a:hover {
+  text-decoration: underline overline;
+  color: dodgerblue;
+}
+
+div.logo {
+	margin-right: auto;
+}
+
+div.nav-item a.selected {
+  text-decoration: none;
+  color: dodgerblue;
+  border: dodgerblue solid 1px;
+  border-radius: 0.5rem;  
+}
+
+/***** HOME *****/
+
+div.outter{
+  flex-grow: 2;
+  margin: auto;
+  padding: 2REM;
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
+
+.comp {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.expand {
+  display: none;
+}
+
+div.comp {
+  max-width: 95%;
+  max-height: 95%;
+  margin: 2REM auto;
+  background-color: darkblue;
+}
+
+h1.comp {
+  margin: 1REM auto;
+  font-size: 1REM;
+  text-align: center;
+  color: lightblue;
+  font-weight: normal;
+}
+
+h2.comp {
+  margin: 0.5REM;
+  font-size: 1REM;
+  font-weight: normal;
+  text-align: left;
+  color: lightblue;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+span.comp{
+  margin: 0.5REM;
+  font-size: 1REM;
+  text-align: left;
+  color: lightblue;
+}
+
+.expand {
+  margin: auto 8REM 1REM;
+  font-size: 0.75REM;
+  text-align: left;
+  color: lightblue;
+}
+
+
+/* The actual popup */
+.popuptext {
+    /*visibility: hidden;*/
+    display: none;
+    /*width: 160px;*/
+    background-color: #555;
+    color: #fff;
+    /*text-align: center;*/
+    border-radius: 6px;
+    padding: 1REM;
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 35%;
+    /*margin-left: -80px;*/
+}
+
+/* Popup arrow 
+.popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}*/
+
+/* Toggle this class - hide and show the popup */
+.show {
+    /*visibility: visible;*/
+    display: inline;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+
+
+
+
+/***** PORTFOLIO *****/
+main.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+h1.portfolio {
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
+  color: white;
+  margin: 1rem auto;
+}
+
+h2.portfolio {
+	font-family: 'Poiret One', sans-sarif;
+  font-weight: normal;
+  color: white;
+  margin: auto;
+}
+
+div.portfolioItem {
+  display: flex;
+  flex-direction: column;
+  margin: 1REM auto;
+  max-width: 12REM;
+  border: white solid 1px;
+  background-color: grey;
+}
+
+div.card:hover {
+  background-image: linear-gradient(to bottom right, dodgerblue, orange);
+}
+
+div.portfolioItem img {
+  margin: 0 auto;
+  padding: 0REM;
+  border: none;
+}
+
+div.portfolioItem p {
+  margin: 1REM;
+  font-family: 'Open Sans Condensed', sans-serif;   
+}
+
+div.portfolioItem ul {
+  list-style: none;
+  margin: auto;
+}
+
+div.portfolioItem ul li {
+	color: white;
+  margin: auto;
+}
+
+
+/***** ABOUNT & INVOLVEMENT *****/
+main.content  {
+  margin: 1REM auto;
+  max-width: 75%;
+}
+
+main.content h2 {
+  margin: 2REM auto -1REM 0;
+  color: dodgerblue;
+  font-size: 2REM;
+  font-family: 'Poiret One', sans-serif;
+}
+
+main.content p {
+  color: lightgray;
+  font-size: 1.5REM;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/***** FOOTER *****/
+footer {
+  font-family: 'Poiret One', sans-sarif;
+  font-size: 1rem;
+	flex-direction: column;
+	justify-content: center;
+  margin: 1rem auto;
+}
+
+div.social-media {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.social-media a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0 0.3rem 0 0.3rem; 
+  margin: 0 0.3rem 0 0.3rem; 
+  border-radius: 0.5rem;
+  border: white solid 1px;
+  style: bold;
+}
+
+div.social-media a:hover {
+  text-decoration: none;
+  background-color: dodgerblue;
+}
+
+p.copyright {
+  color: white;
+	margin: 0.6rem auto;
+  width: 11rem;
+}
+
+
+
+/******************************
+Media Calls
+******************************/
+
+/********************* MEDIUM SCREENS *********************/
+@media screen and (max-width: 775px){
+
+div.outter{
+  padding: 1REM;
+}
+
+div.comp {
+  max-width: 95%;
+  max-height: 95%;
+  margin: 2REM auto;
+  background-color: darkblue;
+}
+
+h1.comp {
+  margin: 0.5REM auto;
+  font-size: 0.75REM;
+}
+
+h2.comp {
+  margin: 0.5REM;
+  font-size: 0.75REM;
+}
+
+span.comp{
+  margin: 0.5REM;
+  font-size: 0.75REM;
+}
+
+.expand {
+  margin: auto 8REM 1REM;
+  font-size: 0.75REM;
+}
+
+.popuptext {
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.5REM;
+    z-index: 1;
+    bottom: 50%;
+    left: 25%;
+}
+
+/**** END MEDIUM ***/
+
+/********************* SMALL SCREENS *********************/
+@media screen and (max-width: 610px){
+
+nav {
+  flex-wrap: no-wrap;
+  flex-direction: column;
+}
+
+div.logo {
+	margin: auto;
+}
+
+img.logo {
+  width: 10rem;
+}
+
+div.nav-item {
+  text-align: center;
+}
+
+div.nav-item {
+  font-size: 2rem;
+}
+
+main.marquee {
+  margin: 2rem auto;
+  padding:  2rem auto;
+  width: 100%;
+}
+
+h1.marquee {
+    text-align: center;
+}
+
+h3.marquee {
+  text-align: center;
+}
+
+h1.banner {
+  display: none;
+  color: black;
+}
+
+div.portfolioItem {
+  width: 95%;
+}
+
+div.portfolioItem img {
+	width: 10rem;
+}
+
+main.portfolio {
+	margin: 2rem auto;
+  padding:  2rem auto;
+  width: 100%;
+}
+
+
+div.social-media a {
+  margin: 0.6rem 0.3rem;
+  font-size: 1.75rem;
+}
+
+
+}  /* End Media Call for Small Screens */
+
+
+
+
+
+
+
+
+/*******************************************************
+
+
+main.marquee {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+}
+
+h1.marquee {
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
+  color: white;
+  margin: 0px auto;
+  text-align: center;
+}
+
+h2.marquee {
+  font-family: 'Poiret One', sans-sarif;
+  font-weight: normal;
+  color: white;
+  margin: 0.3rem auto 0.3rem auto;
+}
+
+h3.marquee {
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+}
+
+form {
+  margin: 2REM auto;
+}
+
+p.skills {
+  font-family: 'Poiret One', sans-sarif;
+  font-size: 1.5REM;
+}
+
+content {
+  background-color: green;
+  margin: 1REM auto 1REM;
+  min-width: 100%;
+}
+
+.resCont {
+  margin: auto;
+  min-width: 100%;
+}
+
+********************************************************/
