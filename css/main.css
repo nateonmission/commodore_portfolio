@@ -439,6 +439,7 @@ h3.marquee {
 
 ul.marquee {
   display: none;
+  padding: 0;
 }
 
 ul.showUL {
@@ -462,6 +463,13 @@ h1.marquee {
 h3.marquee {
   text-align: center;
   cursor: pointer;
+}
+
+li.marquee {
+  font-family: 'Poiret One', sans-sarif;
+  font-size: 1.25REM;
+  text-align: center;
+  margin: auto -2REM;
 }
 
 h1.banner {
