@@ -10,7 +10,7 @@ p {
 }
 
 a{
-  color: dodgerblue;
+  color: darkblue;
   text-decoration: none;
 }
 
@@ -25,6 +25,10 @@ body {
   background-color: black;
   color: white;
   min-height: 100vh;
+}
+
+.marquee {
+  display: none;
 }
 
 h1.banner {
@@ -81,7 +85,7 @@ div.logo {
 div.nav-item a.selected {
   text-decoration: none;
   color: dodgerblue;
-  border: dodgerblue solid 1px;
+  border: darkblue solid 1px;
   border-radius: 0.5rem;  
 }
 
@@ -91,7 +95,7 @@ div.outter{
   flex-grow: 2;
   margin: auto;
   padding: 2REM;
-  width: 100%;
+  max-width: 84REM;
   height: 100%;
   background-color: lightblue;
 }
@@ -138,6 +142,10 @@ span.comp{
   color: lightblue;
 }
 
+li.comp {
+  padding: 0.5REM;
+}
+
 .expand {
   margin: auto 8REM 1REM;
   font-size: 0.75REM;
@@ -179,7 +187,7 @@ span.comp{
 .show {
     /*visibility: visible;*/
     display: inline;
-    animation: fadeIn 1s;
+    /*animation: fadeIn 0s;*/
 }
 
 /* Add animation (fade in the popup) */
@@ -227,7 +235,7 @@ div.portfolioItem {
 }
 
 div.card:hover {
-  background-image: linear-gradient(to bottom right, dodgerblue, orange);
+  background-image: linear-gradient(to bottom right, darkblue, orange);
 }
 
 div.portfolioItem img {
@@ -260,7 +268,7 @@ main.content  {
 
 main.content h2 {
   margin: 2REM auto -1REM 0;
-  color: dodgerblue;
+  color: darkblue;
   font-size: 2REM;
   font-family: 'Poiret One', sans-serif;
 }
@@ -299,7 +307,7 @@ div.social-media a {
 
 div.social-media a:hover {
   text-decoration: none;
-  background-color: dodgerblue;
+  background-color: darkblue;
 }
 
 p.copyright {
@@ -315,7 +323,7 @@ Media Calls
 ******************************/
 
 /********************* MEDIUM SCREENS *********************/
-@media screen and (max-width: 775px){
+@media screen and (max-width: 790px){
 
 div.outter{
   padding: 1REM;
@@ -349,13 +357,14 @@ span.comp{
 }
 
 .popuptext {
+    font-size: .75REM;
     background-color: #555;
     color: #fff;
     border-radius: 6px;
     padding: 0.5REM;
     z-index: 1;
     bottom: 50%;
-    left: 25%;
+    left: 15%;
 }
 
 /**** END MEDIUM ***/
@@ -366,6 +375,14 @@ span.comp{
 nav {
   flex-wrap: no-wrap;
   flex-direction: column;
+}
+
+div.outter {
+  display: none;
+}
+
+.comp {
+  display: none;
 }
 
 div.logo {
@@ -384,6 +401,54 @@ div.nav-item {
   font-size: 2rem;
 }
 
+
+
+main.marquee {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+}
+
+h1.marquee {
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
+  color: white;
+  margin: 0px auto;
+  text-align: center;
+}
+
+h2.marquee {
+  font-family: 'Poiret One', sans-sarif;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  margin: 0.3rem auto 0.3rem auto;
+}
+
+h3.marquee {
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+}
+
+ul.marquee {
+  display: none;
+}
+
+ul.showUL {
+  display: block;
+}
+
+.marquee{
+  display: block;
+}
+
 main.marquee {
   margin: 2rem auto;
   padding:  2rem auto;
@@ -391,11 +456,12 @@ main.marquee {
 }
 
 h1.marquee {
-    text-align: center;
+  text-align: center;
 }
 
 h3.marquee {
   text-align: center;
+  cursor: pointer;
 }
 
 h1.banner {

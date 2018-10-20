@@ -81,7 +81,7 @@ include ("inc_head.php");
 			</div>
 			<div class="portfolioItem card">
 				<div class="portfolioItem">
-					<img src="http://placekitten.com/154/155">
+					<img src="http://placekitten.com/155/155">
 				</div>
 				<div class="portfolioItem">
 					<p>Cat ipsum dolor sit amet, catch mouse and gave it as a present but reward the chosen human with a slow blink or not.</p>
