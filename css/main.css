@@ -85,7 +85,7 @@ div.logo {
 div.nav-item a.selected {
   text-decoration: none;
   color: dodgerblue;
-  border: darkblue solid 1px;
+  border: dodgerblue solid 1px;
   border-radius: 0.5rem;  
 }
 
@@ -97,7 +97,7 @@ div.outter{
   padding: 2REM;
   max-width: 84REM;
   height: 100%;
-  background-color: lightblue;
+  background-color: dodgerblue;
 }
 
 .comp {
@@ -156,38 +156,20 @@ li.comp {
 
 /* The actual popup */
 .popuptext {
-    /*visibility: hidden;*/
     display: none;
-    /*width: 160px;*/
     background-color: #555;
     color: #fff;
-    /*text-align: center;*/
     border-radius: 6px;
     padding: 1REM;
     position: absolute;
     z-index: 1;
     bottom: 40%;
     left: 35%;
-    /*margin-left: -80px;*/
 }
-
-/* Popup arrow 
-.popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}*/
 
 /* Toggle this class - hide and show the popup */
 .show {
-    /*visibility: visible;*/
     display: inline;
-    /*animation: fadeIn 0s;*/
 }
 
 /* Add animation (fade in the popup) */
@@ -268,7 +250,7 @@ main.content  {
 
 main.content h2 {
   margin: 2REM auto -1REM 0;
-  color: darkblue;
+  color: dodgerblue;
   font-size: 2REM;
   font-family: 'Poiret One', sans-serif;
 }
@@ -307,7 +289,7 @@ div.social-media a {
 
 div.social-media a:hover {
   text-decoration: none;
-  background-color: darkblue;
+  background-color: dodgerblue;
 }
 
 p.copyright {
@@ -400,8 +382,6 @@ div.nav-item {
 div.nav-item {
   font-size: 2rem;
 }
-
-
 
 main.marquee {
   display: flex;
@@ -499,68 +479,3 @@ div.social-media a {
 
 
 }  /* End Media Call for Small Screens */
-
-
-
-
-
-
-
-
-/*******************************************************
-
-
-main.marquee {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-  border-top: white solid 1px;
-  border-bottom: white solid 1px;
-}
-
-h1.marquee {
-  font-family: 'Parisienne', cursive;
-  font-weight: normal;
-  color: white;
-  margin: 0px auto;
-  text-align: center;
-}
-
-h2.marquee {
-  font-family: 'Poiret One', sans-sarif;
-  font-weight: normal;
-  color: white;
-  margin: 0.3rem auto 0.3rem auto;
-}
-
-h3.marquee {
-  font-family: 'Parisienne', cursive;
-  font-weight: normal;
-  font-size: 2rem;
-  text-align: center;
-  margin: 0px auto;
-  color: white;
-}
-
-form {
-  margin: 2REM auto;
-}
-
-p.skills {
-  font-family: 'Poiret One', sans-sarif;
-  font-size: 1.5REM;
-}
-
-content {
-  background-color: green;
-  margin: 1REM auto 1REM;
-  min-width: 100%;
-}
-
-.resCont {
-  margin: auto;
-  min-width: 100%;
-}
-
-********************************************************/

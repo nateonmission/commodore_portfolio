@@ -20,3 +20,10 @@
 
 </html>
 <script src="js/main.js"></script>
+
+<?php 
+if ($pageName == "Portfolio")
+
+  echo '<script src="js/ciphers.js"></script>';
+
+?>

@@ -22,14 +22,14 @@ include ("inc_head.php");
 			<span class="comp">READY.</span><BR>
 			<span class="comp">LIST</span><BR>
 			<br>
-			<h2 class="comp" id="cl">010 NAME = "J. NATHAN ALLEN"</h2>
-			<h2 class="comp" id="cl">020 EMAIL = "NATEONMISSION@GMAIL.COM"</h2>
-			<h2 class="comp" id="cl">025 PRINT "              "</h2>
-			<h2 class="comp" id="cl">030 PRINT "************************"</h2>
-			<h2 class="comp" id="cl">040 PRINT "*** CLICKABLE SKILLS ***"</h2>
-			<h2 class="comp" id="cl">050 PRINT "************************"</h2>
-			<h2 class="comp" id="cl">055 PRINT "              "</h2>
-			<h2 class="comp pointer" id="cl" onclick="popUpBox('exp_cl')">060 PRINT "PROGRAMMING LANGUAGES"</h2>
+			<h2 class="comp" id="cl">10 NAME = "J. NATHAN ALLEN"</h2>
+			<h2 class="comp" id="cl">20 EMAIL = "NATEONMISSION@GMAIL.COM"</h2>
+			<h2 class="comp" id="cl">25 PRINT "              "</h2>
+			<h2 class="comp" id="cl">30 PRINT "************************"</h2>
+			<h2 class="comp" id="cl">40 PRINT "*** CLICKABLE SKILLS ***"</h2>
+			<h2 class="comp" id="cl">50 PRINT "************************"</h2>
+			<h2 class="comp" id="cl">55 PRINT "              "</h2>
+			<h2 class="comp pointer" id="cl" onclick="popUpBox('exp_cl')">60 PRINT "PROGRAMMING LANGUAGES"</h2>
 				<div class="popuptext" id="exp_cl" onclick="popUpBox('exp_cl')">
 					<ul>
 						<li class="comp">Python</li>
@@ -37,7 +37,7 @@ include ("inc_head.php");
 						<li class="comp">C / C++ </li>
 					</ul>
 				</div>
-			<h2 class="comp pointer" id="hw" onclick="popUpBox('exp_hw')">070 PRINT "HARDWARE AND TROUBLESHOOTING"</h2>
+			<h2 class="comp pointer" id="hw" onclick="popUpBox('exp_hw')">70 PRINT "HARDWARE AND TROUBLESHOOTING"</h2>
 				<div class="popuptext" id="exp_hw" onclick="popUpBox('exp_hw')">
 					<ul>
 						<li class="comp">PC Construction</li>
@@ -45,7 +45,7 @@ include ("inc_head.php");
 						<li class="comp">Internet Help Desk</li>
 					</ul>
 				</div>
-			<H2 class="comp pointer" id="hl" onclick="popUpBox('exp_hl')">080 PRINT "HUMAN LANGUAGES"</H2>
+			<H2 class="comp pointer" id="hl" onclick="popUpBox('exp_hl')">80 PRINT "HUMAN LANGUAGES"</H2>
 				<div class="popuptext" id="exp_hl" onclick="popUpBox('exp_hl')">
 					<ul>
 						<li class="comp">English</li>
@@ -54,7 +54,7 @@ include ("inc_head.php");
 						<li class="comp">Portuguese</li>
 					</ul>
 				</div>
-			<H2 class="comp pointer" id="chl" onclick="popUpBox('exp_chl')">090 PRINT "CHURCH LEADERSHIP"</H2>
+			<H2 class="comp pointer" id="chl" onclick="popUpBox('exp_chl')">90 PRINT "CHURCH LEADERSHIP"</H2>
 				<div class="popuptext" id="exp_chl" onclick="popUpBox('exp_chl')">
 					<ul>
 						<li class="comp">Teens' Education</li>
