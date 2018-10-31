@@ -13,33 +13,39 @@ include ("inc_head.php");
 			<hr>
 
 			<div class="cipherDemo">
-				<form action="submit">
-					<label class="cdescription" for="ctype">Cipher Type: </label><br>
-					<select class="cipher" id="ctype" name="ctype"> 
-						<option value="1"  selected="selected">Caesar</option>
-						<option value="2" >Vigenere</option>
-						<option value="3" >ASCII Vigenere</option>
-					</select><br><br>
-					<label class="cdescription" for="cdir">Cipher Direction: </label><br>
-						<input type="radio" name="cdirection" id="cencrypt" value="en" checked> Encipher<br>
-        				<input type="radio" name="cdirection" id="cdecrypt" value="de"> Decipher<br>
-					<br>
-					<label class="cdescription" for="textKey">Key Text: </label><br>
-						<textarea id="textKey" name="textKey" class="element text" type="text" maxlength="255" ></textarea><br><br>
-					<label class="cdescription" for="textIn">Input Text: </label><br>
-						<textarea id="textIn" name="textIn" class="element text" type="text" maxlength="255" ></textarea><br><br>
+				  <div id="widget">
+				     <form>
+				        Enter Key Text:<br>
+				        <textarea name="plaintext2" id="plaintext2"></textarea>
+				        <br>
+				        Enter Your Text:<BR>
+				        <textarea name="plaintext" id="plaintext"></textarea><br> 
+				        <input type="radio" name="direction" id="encrypt" value="en" checked> Encipher<br>
+				        <input type="radio" name="direction" id="decrypt" value="de"> Decipher<br>
+				        <br>
+				        <button type="button" id="av_button" class="button" onclick="ascii_vigenere(
+				          document.getElementById('plaintext').value, 
+				          document.getElementById('plaintext2').value,
+				          document.getElementById('encrypt').value                                 
+				        )">Encipher</button>
+				     </form>
 
-					<button type="button" id="cbutton" class="button" onclick="cipherDemo(
-			          document.getElementById('ctype').value, 
-			          document.getElementById('cdir').value,
-			          document.getElementById('textKey').value,
-			          document.getElementById('textIn').value                                 
-			        )">Encipher</button>
-				</form>
-				<div class="cipherDemoOut">
-					<p id="cipherOut" class="cipherDemoOut">
-					</p>
-				</div>
+			     	<div  id="afields" class="fields">
+			          Your Key:<br>
+			        <div id="cyphertext2" class="outfields">
+			          Key
+			        </div>
+			        Your Text:<br>
+			        <div id="cyphertext" class="outfields">
+			          Text
+			        </div>
+
+			        Your Cipher:<br>
+			        <div id="outputtext" class="outfields">
+			          OUT
+			        </div> 
+			      </div>
+			    </div>
 
 			</div>
 

@@ -15,7 +15,7 @@ $displayName = "J. Nathan Allen";
 if ($pageName == "Portfolio")
 
   echo '<link rel="stylesheet" type="text/css" href="css/typing.css">';
-
+  echo '<link rel="stylesheet" type="text/css" href="css/cipher.css">';
 ?>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
