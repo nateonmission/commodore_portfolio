@@ -8,7 +8,6 @@ by
 
 ## J. Nathan Allen
 
-<hr>
 
 ### Description
 ```
