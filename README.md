@@ -1,15 +1,13 @@
-\<CodeLouisville\> Project
-==========================
+# \<CodeLouisville\> Project
 
 presented in partial fulfillment of
 
-Front-End Fall 2018
+## Front-End Fall 2018
 -------------------
 
 by
 
-J. Nathan Allen
----------------
+## J. Nathan Allen
 
 <hr>
 
