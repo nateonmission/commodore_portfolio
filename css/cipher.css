@@ -1,0 +1,51 @@
+#widget {
+  display: flex;
+  justify-content: space-around;
+  margin: 1REM auto 1REM;
+  background-color: dodgerblue;
+  border-radius: 15px;
+  border: black solid 2px;
+  width: 90%;
+}
+
+.cipherDemo{
+  min-width: 75%;
+}
+
+form{
+  margin: 2REM;
+  padding: 1REM;
+  border:black solid 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  width: 100%;
+  padding:1REM;
+  background-color: orange;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.fields {
+  margin: 2REM auto;
+  width: 70%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.outfields {
+  width: 90%;
+  margin: 1REM auto 1REM;
+  padding: 0.5REM;
+  overflow-wrap: break-word;
+  background-color: black;
+  color: green;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+#ckey, #cplain {
+  text-transform: uppercase;
+}

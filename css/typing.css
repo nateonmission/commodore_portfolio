@@ -1,0 +1,22 @@
+
+
+
+.typing > * {
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typingAnim 5s steps(50);
+	margin: auto;
+}
+
+
+
+@keyframes typingAnim{
+	from { width: 0; }
+	to { width: 100% }
+}
+
+@keyframes typingSpeak{
+	0% { width: 1REM; height: 0.1REM; }
+	100% { width: 1REM; height: 0.5REM; }
+}
+
