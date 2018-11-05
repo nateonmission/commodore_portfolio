@@ -3,7 +3,6 @@
 presented in partial fulfillment of
 
 ## Front-End Fall 2018
--------------------
 
 by
 
@@ -11,7 +10,7 @@ by
 
 <hr>
 
-## Description
+### Description
 ```
 My prject is the foundation of a portfolio website.  It includes PHP, JavaScript, and custom CSS. 
 - Since my first computer was a Commodore 64, I gave the main page the apperance of the C64 boot screen.  It presents skill catagories that provide pop-ups with details when clicked.  The C64 screen colapses to an expandable unordered list on small screens.  
@@ -19,7 +18,7 @@ My prject is the foundation of a portfolio website.  It includes PHP, JavaScript
 - The portfolio page contains some additional JavaScript widgets.
 ```
 
-## Custom CSS
+### Custom CSS
 ```
 .nav-item - 
 .comp - 
@@ -27,7 +26,7 @@ My prject is the foundation of a portfolio website.  It includes PHP, JavaScript
 .social-media - 
 ```
 
-## JavaScript Functions
+### JavaScript Functions
 ```
 popUpBox - 
 
