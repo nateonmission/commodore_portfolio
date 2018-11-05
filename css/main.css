@@ -245,7 +245,8 @@ div.portfolioItem ul li {
 /***** ABOUNT & INVOLVEMENT *****/
 main.content  {
   margin: 1REM auto;
-  max-width: 75%;
+  min-width: 75%;
+  max-width: 85%;
 }
 
 main.content h2 {
@@ -260,6 +261,8 @@ main.content p {
   font-size: 1.5REM;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
 
 /***** FOOTER *****/
 footer {
@@ -305,6 +308,7 @@ Media Calls
 ******************************/
 
 /********************* MEDIUM SCREENS *********************/
+/*
 @media screen and (max-width: 790px){
 
 div.outter{
@@ -348,11 +352,11 @@ span.comp{
     bottom: 50%;
     left: 15%;
 }
-
+*/
 /**** END MEDIUM ***/
 
 /********************* SMALL SCREENS *********************/
-@media screen and (max-width: 610px){
+@media screen and (max-width: 790px){
 
 nav {
   flex-wrap: no-wrap;

@@ -5,13 +5,6 @@ include ("inc_head.php");
 		<h1 class="banner">~ <?php echo $pageName; ?> ~</h1>
 		<main class="content">
 
-
-			<div class="typing">
-				<h1 class ="Xtyping">This is a TYPING EFFECT. It is good for headlines.</h1>
-			</div>
-
-			<hr>
-
 			<div class="cipherDemo">
 				  <div id="widget">
 				     <form>
@@ -48,6 +41,17 @@ include ("inc_head.php");
 			    </div>
 
 			</div>
+
+			<hr>
+
+
+<!--
+			<div class="typing">
+				<h1 class ="Xtyping">TYPING EFFECT</h1>
+			</div><div class="typing">
+				<h1>Left Aligned</h1>
+			</div>
+-->
 
 
 
