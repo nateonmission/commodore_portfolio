@@ -31,7 +31,7 @@ form{
 .fields {
   margin: 2REM auto;
   width: 70%;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -56,6 +56,8 @@ form{
 @media screen and (max-width: 790px){
 
 
-
+#widget {
+  flex-direction: column;
+}
 
   }
