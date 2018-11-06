@@ -9,7 +9,7 @@ by
 
 ## J. Nathan Allen
 
-A live version of this project can be found at: [nateonmission.com](nateonmission.com)
+A live version of this project can be found at: [nateonmission.com](http://nateonmission.com)
 
 ### Description
 ```
