@@ -1,6 +1,6 @@
 /********* CSS *********/
 
-/***** GENERAL *****/
+/***** GENERAL - Sets universal styles *****/
 * {
   box-sizing: border-box;
 }
@@ -89,7 +89,7 @@ div.nav-item a.selected {
   border-radius: 0.5rem;  
 }
 
-/***** HOME *****/
+/***** HOME - This includes the Commodore 64 boot screen styling and the PopUp Box classes *****/
 
 div.outter{
   flex-grow: 2;
@@ -172,7 +172,7 @@ li.comp {
     display: inline;
 }
 
-/* Add animation (fade in the popup) */
+/* Add animation */
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}

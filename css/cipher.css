@@ -49,3 +49,13 @@ form{
 #ckey, #cplain {
   text-transform: uppercase;
 }
+
+
+
+/********************* SMALL SCREENS *********************/
+@media screen and (max-width: 790px){
+
+
+
+
+  }
