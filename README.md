@@ -1,3 +1,4 @@
+<center>
 # \<CodeLouisville\> Project
 
 presented in partial fulfillment of
@@ -7,7 +8,7 @@ presented in partial fulfillment of
 by
 
 ## J. Nathan Allen
-
+</center>
 
 ### Description
 ```
