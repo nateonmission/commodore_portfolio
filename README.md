@@ -28,22 +28,27 @@ The C64 screen colapses to an expandable unordered list on small screens.
 on the DIV, it sets the font details (family and size), and the justification.
 It affects the A tags by defining their hover behavior.
 
-.comp - The Commodore 64 boot screen is built using this class.  It defines an outter DIV and an inner 
-DIV each with differing values of blue, as is the Commodore screen.  The text-related tags are also affected 
-as it defines the teminal-style monospace font and size.
+.comp - The Commodore 64 boot screen is built using this class.  It defines an outter DIV and 
+an inner DIV each with differing values of blue, as is the Commodore screen.  The text-related 
+tags are also affected as it defines the teminal-style monospace font and size.
 
 .portfolio and .portfolioItem - These classes build the flex-box gallery.
 
-.social-media - In the footer, this is the class that makes the social media links looklike buttons and define their hover effect.
+.social-media - In the footer, this is the class that makes the social media links looklike 
+buttons and define their hover effect.
 ```
 
 ### JavaScript Functions
 ```
-popUpBox - When the C64 screen is visible on the index.php page, this function enables the pop-up boxes
+popUpBox - When the C64 screen is visible on the index.php page, this function enables 
+the pop-up boxes
 
-expandUL - On small screens, this function expands the unordered list to reveal the sub-lists.
+expandUL - On small screens, this function expands the unordered list to reveal 
+the sub-lists.
 
-ascii_vigenere - This is the functional componant of the ciphering widget on the profile.php page. It takes the key and input text and either encyphers or deciphers the input text.
+ascii_vigenere - This is the functional componant of the ciphering widget on the 
+profile.php page. It takes the key and input text and either encyphers or deciphers 
+the input text.
 ```
 
 
