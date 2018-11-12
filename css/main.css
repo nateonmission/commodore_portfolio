@@ -154,7 +154,7 @@ li.comp {
 }
 
 
-/* The actual popup */
+/* The actual popup for Commodore Screen */
 .popuptext {
     display: none;
     background-color: #555;
@@ -167,12 +167,10 @@ li.comp {
     left: 35%;
 }
 
-/* Toggle this class - hide and show the popup */
 .show {
     display: inline;
 }
 
-/* Add animation */
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
@@ -243,6 +241,16 @@ div.portfolioItem ul li {
 
 
 /***** ABOUNT & INVOLVEMENT *****/
+
+#titlePage {
+  margin: auto;
+  border: lightgray solid 1px;
+}
+
+#titlePage *{
+  text-align: center;
+}
+
 main.content  {
   margin: 1REM auto;
   min-width: 75%;
@@ -250,10 +258,22 @@ main.content  {
 }
 
 main.content h2 {
-  margin: 2REM auto -1REM 0;
+  margin: 1REM auto 0REM 0;
   color: dodgerblue;
   font-size: 2REM;
   font-family: 'Poiret One', sans-serif;
+}
+
+.about {
+  margin: auto;
+  color: lightgray;
+  font-size: 1.5REM;
+  font-family: 'Poiret One', sans-serif;
+  text-align: center;
+}
+
+.about a{
+  color: dodgerblue;
 }
 
 main.content p {
@@ -306,54 +326,6 @@ p.copyright {
 /******************************
 Media Calls
 ******************************/
-
-/********************* MEDIUM SCREENS *********************/
-/*
-@media screen and (max-width: 790px){
-
-div.outter{
-  padding: 1REM;
-}
-
-div.comp {
-  max-width: 95%;
-  max-height: 95%;
-  margin: 2REM auto;
-  background-color: darkblue;
-}
-
-h1.comp {
-  margin: 0.5REM auto;
-  font-size: 0.75REM;
-}
-
-h2.comp {
-  margin: 0.5REM;
-  font-size: 0.75REM;
-}
-
-span.comp{
-  margin: 0.5REM;
-  font-size: 0.75REM;
-}
-
-.expand {
-  margin: auto 8REM 1REM;
-  font-size: 0.75REM;
-}
-
-.popuptext {
-    font-size: .75REM;
-    background-color: #555;
-    color: #fff;
-    border-radius: 6px;
-    padding: 0.5REM;
-    z-index: 1;
-    bottom: 50%;
-    left: 15%;
-}
-*/
-/**** END MEDIUM ***/
 
 /********************* SMALL SCREENS *********************/
 @media screen and (max-width: 790px){

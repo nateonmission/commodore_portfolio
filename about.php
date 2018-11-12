@@ -5,18 +5,69 @@ include ("inc_head.php");
 		<h1 class="banner">~ <?php echo $pageName; ?> ~</h1>
 		<main class="content">
 
-			<h2>Community Service 1</h2>
+
+			<div id="titlePage">
+			<h2> &#60;CodeLouisville&#62; Project </h2>
+
+			<p class="about">presented in partial fulfillment of</p>
+
+			<h2> Front-End Web Development</h2>
+
+			<p class="about">by</p>
+
+			<h2> J. Nathan Allen</h2>
+			<p class="about">Fall 2018</p>
+			<br><br>
+			<p class="about">A live version of this project can be found at: <a href='http://nateonmission.com'>http://nateonmission.com</a></p>
+			</div>
+			<h2>Description</h2>
 			<p>
-			Cat ipsum dolor sit amet, chew the plant find a way to fit in tiny box. Fall over dead (not really but gets sypathy) swat at dog. Have a lot of grump in yourself because you can't forget to be grumpy and not be like king grumpy cat chase the pig around the house have secret plans and why must they do that what a cat-ass-trophy!. Fooled again thinking the dog likes me groom forever, stretch tongue and leave it slightly out, blep hunt anything that moves. Lick master's hand at first then bite because im moody. Milk the cow and sometimes switches in french and say "miaou" just because well why not so lick the other cats drool. Give me attention or face the wrath of my claws run in circles, so cat slap dog in face, sleep nap for catasstrophe. Destroy the blinds. Leave hair everywhere instead of drinking water from the cat bowl, make sure to steal water from the toilet wack the mini furry mouse chase imaginary bugs, but why use post when this sofa is here yet reward the chosen human with a slow blink but kitty poochy. Purr while eating flop over. 
+			My prject is the foundation of a portfolio website.  It includes PHP, JavaScript, and custom CSS. 
+
+			- Since my first computer was a Commodore 64, I gave the main page the apperance of the C64 boot screen.  
+			It presents skill catagories that provide pop-ups with details when clicked.  
+			The C64 screen colapses to an expandable unordered list on small screens.  
+
+			- The gallery page demonstrates flex-box and a few hover and click effects.
+
+			- The portfolio page contains some additional JavaScript widgets.
 			</p>
-			<h2>Community Service 2</h2>
+
+			<h2> Selected Custom CSS Classes</h2>
 			<p>
-			Crash against wall but walk away like nothing happened meoooow sniff other cat's butt and hang jaw half open thereafter so plays league of legends, bite the neighbor's bratty kid. Stare at guinea pigs toilet paper attack claws fluff everywhere meow miao french ciao litterbox, for chew foot, but kick up litter but purrrrrr. Russian blue eat from dog's food but kitty kitty, and leave fur on owners clothes claw drapes, so this cat happen now, it was too purr-fect!!! fooled again thinking the dog likes me. Thinking longingly about tuna brine. 
+			.nav-item - This class defines the style details of the upper navagation bar on all the pages.
+			on the DIV, it sets the font details (family and size), and the justification.
+			It affects the A tags by defining their hover behavior.
+
+			.comp - The Commodore 64 boot screen is built using this class.  It defines an outter DIV and 
+			an inner DIV each with differing values of blue, as is the Commodore screen.  The text-related 
+			tags are also affected as it defines the teminal-style monospace font and size.
+
+			.portfolio and .portfolioItem - These classes build the flex-box gallery.
+
+			.social-media - In the footer, this is the class that makes the social media links looklike 
+			buttons and define their hover effect.
 			</p>
-			<h2>Community Service 3</h2>
+
+			<h2> JavaScript Functions</h2>
 			<p>
-			Annoy kitten brother with poking sleep on keyboard, but with tail in the air. Licks paws stare at ceiling light, rub face on everything brown cats with pink ears for my slave human didn't give me any food so i pooped on the floor but poop in the plant pot. Eat a plant, kill a hand chew iPad power cord. Claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? stare at the wall, play with food and get confused by dust for cough, freak human out make funny noise mow mow mow mow mow mow success now attack human. Lick the curtain just to be annoying meow. Claw drapes hack, and headbutt owner's knee i cry and cry and cry unless you pet me, and then maybe i cry just for fun. Stick butt in face scratch leg; meow for can opener to feed me or hack up furballs and you call this cat food but this human feeds me, i should be a god a nice warm laptop for me to sit on attack the dog then pretend like nothing happened.  
+			popUpBox - When the C64 screen is visible on the index.php page, this function enables 
+			the pop-up boxes
+
+			expandUL - On small screens, this function expands the unordered list to reveal 
+			the sub-lists.
+
+			ascii_vigenere - This is the functional componant of the ciphering widget on the 
+			profile.php page. It takes the key and input text and either encyphers or deciphers 
+			the input text.
 			</p>
+
+
+
+
+
+
+
 
 
 
