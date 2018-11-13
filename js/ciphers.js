@@ -59,7 +59,7 @@ function ascii_vigenere(text, text2, dir) {
         cypherArray.push(newLetter);
         tempLetter = newLetter;
       }
-      console.log( plainTextArray[i], ' + ', (keyArray[i % text2.length]), ' = ',newLetter, '  tempLetter ', tempLetter);
+      console.log( plainTextArray[i], ' + ', (keyArray[i % text2.length]), ' = ',newLetter, '  -/+95 = ', tempLetter);
     }
 
     // Converts ASCII codes in the cypherArray to a letters then links them into a STRING

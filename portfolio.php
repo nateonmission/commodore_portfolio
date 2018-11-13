@@ -6,16 +6,17 @@ include ("inc_head.php");
 		<main class="content">
 
 			<div class="cipherDemo">
+				<h2>ASCII-Vigenere</h2>
 				<p class="cipherDemo">
 					This widget demonstrates the a variation on the Vigenere cipher. In a traditional Vigenere cipher, a KEY text is given, each letter of the KEY represents that letter's place in the alphabet (e.g. A=1, B=2, C=3). Each letter of the PLAIN text is then shifted by that amount. If the result goes past Z the start over at A. When you reach the end of the KEY, start back at the beginning. For example:
 				</p>
 				<p class="cipherDemo">
-					KEY: ALOE
+					KEY: ALOE<br>
 					gives: 1, 12, 15, 5
-
-					PLAIN text: "Help me"
-
-					Renders a CIPHER of:
+					<br><br>
+					PLAIN text:<br> "Help me"
+					<br><br>
+					Renders a CIPHER of:<br>
 					"Iqau nq"
 				</p>
 				<p class="cipherDemo">
