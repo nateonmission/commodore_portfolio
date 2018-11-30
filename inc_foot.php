@@ -1,4 +1,4 @@
-    <footer>
+    <footer <?php if ($pageName == "Main") echo 'id="hideMeFoot"';  ?>>
       <div class="social-media">
         <a href="https://github.com/nateonmission" target=_blank>
           GitHub

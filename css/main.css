@@ -46,6 +46,10 @@ header {
   width: 100%;
 }
 
+#hideMeHead {
+  display: none;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -290,6 +294,10 @@ footer {
   margin: 1rem auto;
 }
 
+#hideMeFoot {
+  display: none;
+}
+
 div.social-media {
   display: flex;
   justify-content: center;
@@ -450,5 +458,12 @@ div.social-media a {
   font-size: 1.75rem;
 }
 
+#hideMeHead {
+  display: block;
+}
+
+#hideMeFoot {
+  display: block;
+}
 
 }  /* End Media Call for Small Screens */

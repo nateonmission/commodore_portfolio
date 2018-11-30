@@ -23,7 +23,7 @@ if ($pageName == "Portfolio")
   </head>
 
   <body>
-		<header>
+		<header  <?php if ($pageName == "Main") echo 'id="hideMeHead"';  ?> >
 			<nav>
 				<div class="nav-item logo"><a href="index.php" class="nav-item"><img src="img/logowhite.png" class="logo"></a></div>
 				<div class="nav-item"><a href="index.php" class="<?php if($pageName=="Main") {echo "selected ";}?>nav-item">main</a></div>
