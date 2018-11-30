@@ -7,22 +7,15 @@ include ("inc_head.php");
 
 
 			<div id="titlePage">
-			<h2> &#60;CodeLouisville&#62; Project </h2>
+			<h2> Simple Homepage </h2>
 
-			<p class="about">presented in partial fulfillment of</p>
-
-			<h2> Front-End Web Development</h2>
-
-			<p class="about">by</p>
-
-			<h2> J. Nathan Allen</h2>
-			<p class="about">Fall 2018</p>
+			
 			<br><br>
 			<p class="about">A live version of this project can be found at: <a href='http://nateonmission.com'>http://nateonmission.com</a></p>
 			</div>
 			<h2>Description</h2>
 			<p>
-			My prject is the foundation of a portfolio website.  It includes PHP, JavaScript, and custom CSS. 
+			My project is the foundation of a portfolio website.  It includes PHP, JavaScript, and custom CSS. 
 			<br><br>
 			- Since my first computer was a Commodore 64, I gave the main page the apperance of the C64 boot screen.  
 			It presents skill catagories that provide pop-ups with details when clicked.  

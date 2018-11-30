@@ -1,19 +1,11 @@
 
-# \<CodeLouisville\> Project
-
-presented in partial fulfillment of
-
-## Front-End Fall 2018
-
-by
-
-## J. Nathan Allen
+# Simple Homepage
 
 A live version of this project can be found at: [nateonmission.com](http://nateonmission.com)
 
 ### Description
 ```
-My prject is the foundation of a portfolio website.  It includes PHP, JavaScript, and custom CSS. 
+This project is the foundation of a portfolio website.  It includes PHP, JavaScript, and custom CSS. 
 
 - Since my first computer was a Commodore 64, I gave the main page the apperance of the C64 boot screen.  
 It presents skill catagories that provide pop-ups with details when clicked.  
