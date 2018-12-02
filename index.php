@@ -90,14 +90,15 @@ include ("inc_head.php");
 		<div class="marquee">
 			<hr class="marquee">
 			<h1 class="marquee">J. Nathan Allen</h1>
+			<h2 class="marquee">Front-end Developer</h2>
 			<h2 class="marquee">nateonmission@gmail.com</h2>
 			<hr class="marquee">
 
 			<h3 class="marquee" onclick="expandUL('mcl')">Programming Languages</h3>
 			<ul class="marquee" id="mcl">
-				<li class="marquee"><span class="marquee">Python</span></li>
 				<li class="marquee"><span class="marquee">JavaScript</span></li>
-				<li class="marquee"><span class="marquee">C / C++</span></li>
+				<li class="marquee"><span class="marquee">Python</span></li>
+				<li class="marquee"><span class="marquee">C#</span></li>
 			</ul>
 
 			<h3 class="marquee" onclick="expandUL('mht')">Hardware & Troubleshooting</h3>
@@ -112,7 +113,6 @@ include ("inc_head.php");
 				<li class="marquee"><span class="marquee">English</span></li>
 				<li class="marquee"><span class="marquee">German</span></li>
 				<li class="marquee"><span class="marquee">French</span></li>
-				<li class="marquee"><span class="marquee">Portuguese</span></li>
 			</ul>
 
 			<h3 class="marquee" onclick="expandUL('mchl')">Church Leadership</h3>
