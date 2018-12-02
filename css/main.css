@@ -139,6 +139,14 @@ h2.comp {
     cursor: pointer;
 }
 
+h2 a:followed {
+  color: lightblue; !important
+}
+
+h2 a {
+  color: lightblue; !important
+}
+
 span.comp{
   margin: 0.5REM;
   font-size: 1REM;

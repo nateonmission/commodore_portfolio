@@ -6,7 +6,7 @@
         <a href="http://www.twitter.com/nateonmission" target=_blank>
           Twitter
         </a>
-        <a href="http://www.linkedin.com/in/jerome-nathan-allen-73674813/" target=_blank>
+        <a href="http://www.linkedin.com/in/nateonmission/" target=_blank>
           LinkedIn
         </a>
         <a href="mailto:nateonmission@gmail.com" target=_blank>
